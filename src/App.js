@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes , Route } from "react-router";
 import Navbar from "./Components/Navbar";
-import Section from "./Components/Section";
 import Skills from "./Components/Skills";
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -12,7 +11,6 @@ let App = ()=>{
     <BrowserRouter>
       <Navbar/>
       <div className="home-bg">
-      <Section/>
 
       <Routes>
         <Route path="/" element={<Home/>}/>
