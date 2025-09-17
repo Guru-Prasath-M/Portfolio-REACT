@@ -7,7 +7,7 @@ const About = () => {
       <div className="container">
         {/* Title */}
         <h2
-          className="text-center fw-bold"
+          className="text-center fw-bold text-primary"
           style={{
             color: "blue",
             fontSize: "40px",
@@ -15,16 +15,7 @@ const About = () => {
           }}
         >
           About
-          <div
-            style={{
-              width: "80px",
-              height: "4px",
-              background: "blue",
-              margin: "8px auto 0",
-              borderRadius: "2px",
-            }}
-          ></div>
-        </h2>
+          </h2>
 
         {/* Content */}
         <div className="row align-items-center">
@@ -45,7 +36,7 @@ const About = () => {
 
           {/* Text */}
           <div className="col-md-6">
-            <h1 className="fw-bold mb-3">I'm GuruPrasath</h1>
+            <h1 className="fw-bold mb-3 text-primary">I'm GuruPrasath</h1>
             <p style={{ fontSize: "18px", lineHeight: "1.8" }}>
               Hi, I’m <b>GuruPrasath</b>, a passionate Full Stack Developer in the making.
               I recently graduated and I’m currently pursuing a <b>Java Full Stack Development</b> course.
