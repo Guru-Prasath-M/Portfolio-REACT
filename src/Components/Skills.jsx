@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5' style={{marginLeft:"250px"}}>
         <h2 className='text-center text-primary' style={{fontWeight:'bold'}}>My Skills</h2>
       <div className='mb-4'>
         <h4 style={{fontWeight:'bold'}}>HTML / CSS</h4>
@@ -21,8 +21,8 @@ const Skills = () => {
 
       <div className='mb-4' >
         <h4 style={{fontWeight:'bold'}}>JavaScript</h4>
-        <div className="progress" style={{border:'1px solid lightblue'}}>
-            <div className="progress-bar bg-info" role='progressbar' style={{width:'60%',fontWeight:'bold',color:"black"}}>60%</div>
+        <div className="progress" style={{border:'1px solid darkblue'}}>
+            <div className="progress-bar bg-secondary" role='progressbar' style={{width:'60%',fontWeight:'bold',color:"black"}}>60%</div>
         </div>
       </div>
 

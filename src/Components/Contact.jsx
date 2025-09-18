@@ -2,17 +2,17 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="contact py-5">
+    <section className="contact py-5 ms-5">
       <div className="container">
         {/* Section Title */}
         <h2
           className="text-center fw-bold text-primary mb-5"
-          style={{ fontSize: "32px" , fontWeight:'bold' }}
+          style={{ fontSize: "32px", fontWeight: "bold" , marginLeft:"200px"}}
         >
           Contact
         </h2>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center" style={{marginLeft:"200px"}}>
           <div className="col-md-6">
             <form>
               {/* Name */}

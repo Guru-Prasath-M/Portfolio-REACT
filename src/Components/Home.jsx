@@ -1,20 +1,20 @@
 import React from 'react'
 import "../App.css"
 import profilePic from '../Assets/guru-img.jpg'
+import { NavLink } from 'react-router'
 
  const Home = () => {
   return (
     <div>
             
-        
-        <div className="container">
+        <div className="container mt-5">
             <div className="row">
                 <div className="col-6">
                     <h1 className='mb-4'>Hi,</h1>
                     <h1 className='mb-4'>I'm <span className='text-primary'>GuruPrasath</span></h1>
                     <h1 className='mb-4'>Full Stack Developer</h1>
 
-                    <button className='btn btn-primary'>Contact</button>
+                    <NavLink to="/Contact"><button className='btn btn-primary'>Contact</button></NavLink>
                     {/* <button className='btn btn-primary' id='CV'> <a href="./GURUPRASATH M_RESUME.pdf"></a>Download CV</button> */}
 
                     <a href="/GURUPRASATH M_RESUME.pdf" download='GuruPrasath M_Resume.pdf' className='btn btn-primary' id='CV'>Download CV</a>
