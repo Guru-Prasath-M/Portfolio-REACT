@@ -29,8 +29,7 @@ body{
     width: 120px;
     height: 12%;
     font-size: 20px;
-    margin-top: 40px;
-    
+    margin-top: 40px; 
 }
 
 .btn:hover{
@@ -94,9 +93,6 @@ body{
     background-color: blue;
     border: none;
 }
-
-
-
 
 .home-bg {
   background-image: url("https://i.pinimg.com/736x/17/2d/29/172d295c056b00f1f0172eba8dc22ab5.jpg");

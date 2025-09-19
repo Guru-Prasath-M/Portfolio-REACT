@@ -15,7 +15,6 @@ import { NavLink } from 'react-router'
                     <h1 className='mb-4'>Full Stack Developer</h1>
 
                     <NavLink to="/Contact"><button className='btn btn-primary'>Contact</button></NavLink>
-                    {/* <button className='btn btn-primary' id='CV'> <a href="./GURUPRASATH M_RESUME.pdf"></a>Download CV</button> */}
 
                     <a href="/GURUPRASATH M_RESUME.pdf" download='GuruPrasath M_Resume.pdf' className='btn btn-primary' id='CV'>Download CV</a>
                 </div>
