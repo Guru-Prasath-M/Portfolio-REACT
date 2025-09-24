@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="contact py-5 ms-5">
+    <section className="contact py-3 ms-5">
       <div className="container">
         {/* Section Title */}
         <h2
           className="text-center fw-bold text-primary mb-5"
-          style={{ fontSize: "32px", fontWeight: "bold" , marginLeft:"200px"}}
+          style={{ fontSize: "35px", fontWeight: "bold" , marginLeft:"200px"}}
         >
           Contact
         </h2>

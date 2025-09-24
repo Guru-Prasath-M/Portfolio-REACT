@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='container mt-5' style={{marginLeft:"250px"}}>
+    <div className='container mt-2' style={{marginLeft:"250px"}}>
         <h2 className='text-center text-primary' style={{fontWeight:'bold'}}>My Skills</h2>
       <div className='mb-4'>
         <h4 style={{fontWeight:'bold'}}>HTML / CSS</h4>
@@ -51,4 +51,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills;

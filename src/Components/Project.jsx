@@ -1,10 +1,9 @@
 import React from 'react'
 
- const Project = () => {
+const Project = () => {
   return (
-    <div>
-      <h2>Project Components</h2>
-    </div>
+    <div>Project</div>
   )
 }
+
 export default Project;
