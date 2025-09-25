@@ -1,28 +1,30 @@
-.project-card {
-  height: 250px;
+.card {
+  transition: 0.5s ease;
   cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
-.project-img {
-  object-fit: cover;
-  transition: transform 0.4s ease;
+#projectcard:hover > :not(:hover) {
+  opacity: 0.3;
 }
 
-.project-card:hover .project-img {
-  transform: scale(1.1);
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+.card img {
+  border-radius: 10px 10px 0 0;
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  transition: opacity 0.4s ease;
+  height: 200px;       /* fixed height for uniform look */
+  object-fit: cover;   /* crop nicely */
+  display: block;
 }
 
-.project-card:hover .overlay {
-  opacity: 1;
+.card-body .btn {
+  margin-top: auto;       /* pushes button to bottom */
+  width: 100%;            /* make button full width */
+  border-radius: 8px;
 }

@@ -12,7 +12,7 @@ import { NavLink } from 'react-router'
                 <div className="col-6">
                     <h1 className='mb-4'>Hi,</h1>
                     <h1 className='mb-4'>I'm <span className='text-primary'>GuruPrasath</span></h1>
-                    <h1 className='mb-4'>Full Stack Developer</h1>
+                    <h1 className='mb-4'>FrontEnd Developer</h1>
 
                     <NavLink to="/Contact"><button className='btn btn-primary'>Contact</button></NavLink>
 
